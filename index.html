@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quotes</title>
+    <script defer src="script.js"></script>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
     <h1>Mes citations</h1>
@@ -11,13 +13,23 @@
     <h3>0 citations</h3>
     <hr>
     <form action="form" id="creationCitation">
-        <label for="textCitation">Citation</label>
-        <input type="text" id="textCitation">
-
-        <label for="auteur">Auteur de la citation</label>
-        <input type="text" id="nomAuteur">
+        <p>
+            <label for="textCitation">Citation</label>
+            <input type="text" id="textCitation">
+        </p>
+        <p>
+            <label for="auteur">Auteur.ice de la citation</label>
+            <input type="text" id="nomAuteur">
+        </p>
         
         <button>Envoyer</button>
+
+        <div id="quote-list">
+            <div class="quote">
+                <p class="text">"On ne naît pas femme, on le devient."</p>
+                <p class="author">Simone de Beauvoir</p>
+            </div>
+        </div>
 
     </form>
 </body>
