@@ -3,7 +3,7 @@ let baliseCitation = document.getElementById('textCitation');
 let baliseNom = document.getElementById('nomAuteur');
 
 enregistrer.addEventListener("click", () => {
-    let  citation = baliseCitation.value;
+    let  text  = baliseCitation.value;
     let author = baliseNom.value;
-    console.log(citation + author);
+    console.log(text + author);
 })
