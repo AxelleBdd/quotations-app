@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,22 +8,23 @@
     <script defer src="script.js"></script>
     <link href="style.css" rel="stylesheet">
 </head>
+
 <body>
     <h1>Mes citations</h1>
     <h2>Gestionnaire de citations en ligne</h2>
     <h3>0 citations</h3>
     <hr>
-    <form action="form" id="creationCitation">
+    <form id="creationCitation">
         <p>
-            <label for="textCitation">Citation</label>
+            <label for="citation">Citation</label>
             <input type="text" id="textCitation">
         </p>
         <p>
             <label for="auteur">Auteur.ice de la citation</label>
             <input type="text" id="nomAuteur">
         </p>
-        
-        <button>Envoyer</button>
+
+        <button id="button">Envoyer</button>
 
         <div id="quote-list">
             <div class="quote">
@@ -33,4 +35,5 @@
 
     </form>
 </body>
+
 </html>
