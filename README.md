@@ -1,4 +1,4 @@
-🎒 This a the first Kata i've realised.
+🎒 This is the first Kata i've realised.
 
 I had 3 hours to go as far as I could in the subject given by the school.
 
