@@ -1,5 +1,15 @@
-🎒 This is the first Kata i've realised.
+># 🎓 KATA
+>
+>⏲️ Time : 3 hours
+>
 
-⏲️ I had 3 hours to go as far as I could in the subject given by the school.
+># 📚 Used stack
+>
+>🌐 JavaScript, CSS and HTML
+>
 
-📃 The aim of this project was to create a website where you can add quotes with their author.
+># 📑 Exercise guidlines
+>
+>📃 create a website where you can add quotes with their author <br>
+>⌛ Follow steps to go as far as possible in the given time.
+>
